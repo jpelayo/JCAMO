@@ -1,0 +1,18 @@
+{
+"colors":{
+	"jcamo_brown":[129,97,60],
+	"jcamo_lightbrown":[135,115,72],
+	"jcamo_sand":[156,145,119],
+	"jcamo_lightgreen":[109,113,46],
+	"jcamo_green":[80,101,77],
+	"charcoal":[48,39,39],
+	"shadow":[87, 80, 77]
+	},
+"palettes":{
+	"desert":{"macro1":"jcamo_sand", "macro2":"jcamo_lightbrown", "micro1":"jcamo_lightgreen", "micro2":"jcamo_brown"},
+	"multiterrain":{"macro1":"jcamo_lightgreen","macro2":"jcamo_sand","micro1":"jcamo_brown","micro2":"jcamo_green"},
+	"dull":{"macro1":"jcamo_lightgreen","macro2":"jcamo_lightbrown","micro1":"jcamo_brown","micro2":"jcamo_green"},
+	"deep":{"macro1":"jcamo_lightgreen","macro2":"jcamo_lightbrown","micro1":"jcamo_sand","micro2":"jcamo_brown"},
+	"woodland":{"macro1":"jcamo_green","macro2":"jcamo_sand","micro1":"charcoal","micro2":"jcamo_brown"}
+	}
+}
