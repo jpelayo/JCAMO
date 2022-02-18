@@ -26,4 +26,4 @@ Open/free use license for non-commercial, non-institutional use. See main file h
 
 ## Dedication
 
-To the Spanish Army (I don't like our woodland pixel camo).
+To the Spanish Army (I don't like our woodland pixel camo; it is a micro-only dark mix).
