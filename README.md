@@ -22,7 +22,12 @@ Open/free use license for non-commercial, non-institutional use. See main file h
 
 ## Examples
 
+MultiTerrain
 ![jcamo_multiterrain_2022-02-17_14-16-42](https://user-images.githubusercontent.com/10059639/154687313-d6c4199d-eaeb-4c39-a379-ff73df949010.png)
+
+Desert
+![desert_2022-02-17_14-21-37](https://user-images.githubusercontent.com/10059639/154696045-09a216c2-7f5e-4463-904f-bf18e9b5bed9.png)
+
 
 ## Dedication
 
