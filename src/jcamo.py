@@ -28,6 +28,7 @@ import json
 from datetime import datetime
 import cv2
 import noise
+import os
 
 def random_num(length):
 	digits = string.digits
@@ -196,8 +197,8 @@ def jcamo(res=24,seamless=False, h=200, w=200, palette="multiterrain", dodelete=
 	if dodelete and os.path.exists(i1): os.remove(i1)
 	if dodelete and os.path.exists(i2): os.remove(i2)
 	if dodelete and os.path.exists(i3): os.remove(i3)
-	if dodelete and os.path.exists(mid): os.remove(i3)
-	if dodelete and os.path.exists(tile): os.remove(i3)
+	if dodelete and os.path.exists(mid): os.remove(mid)
+	if dodelete and os.path.exists(tile): os.remove(tile)
 
 #Current palettes available: see palette.json
 jcamo(res=64, h=400, w=1200, palette="woodland", seamless=True, dodelete=True)
