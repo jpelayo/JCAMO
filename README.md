@@ -1,7 +1,7 @@
 
 # JCAMO Pixelated Noise Camouflage Pattern Generator
 
-I you want to use JCAMO's seamless camouflage pattern, this function will generate a new, unique, randomized image for you. This particular camouflage pattern is a 5 color (2 for macro, 2 for micro, 1 for shadow) computer generated image designed to be a macro/micro pattern composite that both breaks the silhouette at long distance by employing a heavy contrast macro pattern, and uses a random confusion 3d-mimicking overlay for short distance concealment. The motives of the pattern are shredded in order to blur the edges, while keeping the layered arrangement of big, solid pixels when using a low DPI function parameter (less than 64 for this purpose) in order to keep modern military aesthetics and a low price printing method.
+I you want to use JCAMO's seamless camouflage pattern, this function will generate a new, unique, randomized image for you. This particular camouflage pattern is a 5 color (2 for macro, 2 for micro, 1 for shadow) computer generated image designed to be a macro/micro pattern composite that both breaks the silhouette at long distance by employing a heavy contrast macro pattern, and uses a random confusion 3d-mimicking overlay for short distance concealment. The motives of the pattern are shredded in order to blur the edges, while keeping the layered arrangement of big, solid pixels when using a low DPI function parameter (less than 64 for this purpose) in order to keep modern military aesthetics and a low price printing method (gradients are avoided because of this).
 
 ## Usage
 
