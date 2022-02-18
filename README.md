@@ -22,4 +22,4 @@ See main file header.
 
 ## Examples
 
-![jcamo_multiterrain_2022-02-17_14-16-42](https://user-images.githubusercontent.com/10059639/154687154-8fbec328-74eb-4a2d-8bfc-398f5fbdf399.png)
+![jcamo_multiterrain_2022-02-17_14-16-42](https://user-images.githubusercontent.com/10059639/154687313-d6c4199d-eaeb-4c39-a379-ff73df949010.png)
