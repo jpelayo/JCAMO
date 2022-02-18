@@ -1,7 +1,6 @@
 
-# Project Title
+# JCAMO Pixelated Noise Camouflage Pattern Generator
 
-Pixelated Noise Camouflage Pattern Generator
 I you want to use JCAMO's camouflage pattern, this function will generate the image for you.
 
 ## Usage/Examples
