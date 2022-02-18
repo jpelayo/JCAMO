@@ -18,7 +18,7 @@ Then just download the source folder.
 
 ## License
 
-See main file header.
+Open/free use license for non-commercial, non-institutional use. See main file header.
 
 ## Examples
 
