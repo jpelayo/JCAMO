@@ -21,7 +21,7 @@ optional arguments:\
   -s SEAMLESS, --seamless SEAMLESS\
                         0 1 boolean to compose 4 tiles horizontally\
   -e DELETE, --delete DELETE\
-                        0 1 boolean to remove temporary files\
+                        0 1 boolean to remove temporary files
 
 ## Usage
 
