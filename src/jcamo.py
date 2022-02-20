@@ -29,6 +29,7 @@ from datetime import datetime
 import cv2
 import noise
 import os
+import argparse
 
 def random_num(length):
 	digits = string.digits
@@ -200,5 +201,28 @@ def jcamo(res=24,seamless=False, h=200, w=200, palette="multiterrain", dodelete=
 	if dodelete and os.path.exists(mid): os.remove(mid)
 	if dodelete and os.path.exists(tile): os.remove(tile)
 
+parser = argparse.ArgumentParser()
+parser.add_argument("-d", "--dpi", type=int, help="resolution as DPI 32 64 72 150 300")
+parser.add_argument("-y", "--height", type=int, help="resultant image height")
+parser.add_argument("-x", "--width", type=int, help="tile width")
+parser.add_argument("-p", "--palette", type=str, help="name of the color palette in the json to use")
+parser.add_argument("-s", "--seamless", type=int, help="0 1 boolean to compose 4 tiles horizontally")
+parser.add_argument("-e", "--delete", type=int, help="0 1 boolean to remove temporary files")
+args = parser.parse_args()
+
+ires = 64
+if args.dpi is not None and int(args.dpi) > 0: ires = int(args.dpi)
+ih = 400
+if args.height is not None and int(args.height) > 0: ih = int(args.height)
+iw = 1200
+if args.width is not None and int(args.width) > 0: iw = int(args.width)
+ip = "desert"
+if args.palette is not None: ip = str(args.palette)
+ise = True
+if args.seamless is not None and int(args.seamless) >= 0: ise = bool(int(args.seamless))
+idel = True
+if args.delete is not None and int(args.delete) >= 0: idel = bool(int(args.delete))
+
+
 #Current palettes available: see palette.json
-jcamo(res=64, h=400, w=1200, palette="woodland", seamless=True, dodelete=True)
+jcamo(res=ires, h=ih, w=iw, palette=ip, seamless=ise, dodelete=idel)
