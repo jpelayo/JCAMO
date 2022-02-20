@@ -13,9 +13,9 @@ optional arguments:\
   -h, --help            show this help message and exit\
   -d DPI, --dpi DPI     resolution as DPI 32 64 72 150 300\
   -y HEIGHT, --height HEIGHT\
-                        resultant image height\
+                        composing field height that is affected by DPI\
   -x WIDTH, --width WIDTH\
-                        tile width\
+                        composing field width that is affected by DPI and tile copy\
   -p PALETTE, --palette PALETTE\
                         name of the color palette in the json to use\
   -s SEAMLESS, --seamless SEAMLESS\
