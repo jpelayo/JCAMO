@@ -5,23 +5,23 @@ I you want to use JCAMO's seamless camouflage pattern, this function will genera
 
 ## Parameters
 
-python3 jcamo.py -h
+python3 jcamo.py -h\
 usage: jcamo.py [-h] [-d DPI] [-y HEIGHT] [-x WIDTH] [-p PALETTE]
-                [-s SEAMLESS] [-e DELETE]
+                [-s SEAMLESS] [-e DELETE]\
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -d DPI, --dpi DPI     resolution as DPI 32 64 72 150 300
-  -y HEIGHT, --height HEIGHT
-                        resultant image height
-  -x WIDTH, --width WIDTH
-                        tile width
-  -p PALETTE, --palette PALETTE
-                        name of the color palette in the json to use
-  -s SEAMLESS, --seamless SEAMLESS
-                        0 1 boolean to compose 4 tiles horizontally
-  -e DELETE, --delete DELETE
-                        0 1 boolean to remove temporary files
+optional arguments:\
+  -h, --help            show this help message and exit\
+  -d DPI, --dpi DPI     resolution as DPI 32 64 72 150 300\
+  -y HEIGHT, --height HEIGHT\
+                        resultant image height\
+  -x WIDTH, --width WIDTH\
+                        tile width\
+  -p PALETTE, --palette PALETTE\
+                        name of the color palette in the json to use\
+  -s SEAMLESS, --seamless SEAMLESS\
+                        0 1 boolean to compose 4 tiles horizontally\
+  -e DELETE, --delete DELETE\
+                        0 1 boolean to remove temporary files\
 
 ## Usage
 
