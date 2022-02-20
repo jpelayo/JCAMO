@@ -203,8 +203,8 @@ def jcamo(res=24,seamless=False, h=200, w=200, palette="multiterrain", dodelete=
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-d", "--dpi", type=int, help="resolution as DPI 32 64 72 150 300")
-parser.add_argument("-y", "--height", type=int, help="resultant image height")
-parser.add_argument("-x", "--width", type=int, help="tile width")
+parser.add_argument("-y", "--height", type=int, help="composing field height that is affected by DPI")
+parser.add_argument("-x", "--width", type=int, help="composing field width that is affected by DPI and tile copy")
 parser.add_argument("-p", "--palette", type=str, help="name of the color palette in the json to use")
 parser.add_argument("-s", "--seamless", type=int, help="0 1 boolean to compose 4 tiles horizontally")
 parser.add_argument("-e", "--delete", type=int, help="0 1 boolean to remove temporary files")
