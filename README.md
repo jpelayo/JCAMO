@@ -52,6 +52,9 @@ Woodland
 Urban
 ![jcamo_urban_2022-05-17_11-03-17](https://user-images.githubusercontent.com/10059639/168774170-0ce9d667-ac12-4737-a20a-8165e8808b0b.png)
 
+CCE
+![jcamo_cce_2022-05-22_10-22-16](https://user-images.githubusercontent.com/10059639/169691528-4b3a188b-84cb-4e8f-9770-01270c098e90.png)
+
 
 ## Dedication
 
